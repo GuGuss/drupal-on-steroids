@@ -19,6 +19,15 @@ dependencies:
         'drush/drush': '^8.0'
         'drupal/console': '@stable'
 
+# Enable Blackfire.
+runtime:
+    extensions:
+        - name: blackfire
+          configuration:
+              server_id: 'fd82b6c1-9cc9-4803-9dc8-2cba71efcf6d'
+              server_token: '7e7e568b2fb20b15a1a104f54148bcee5009109cdf2f99e615824d6a90955401'
+
+
 # The relationships of the application with services or other applications.
 #
 # The left-hand side is the name of the relationship as it will be exposed
