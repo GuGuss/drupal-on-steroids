@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2f2b2bb0ac68208c8658b195b765546",
-    "content-hash": "c7b0773f38194509dc7c9dfca3fc14c5",
+    "hash": "8457de02e062f1ab5974b29812d0ecb6",
+    "content-hash": "824bd23bad74f4ccd263a19666441ff3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1161,6 +1161,52 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-07-18 15:01:43"
+        },
+        {
+            "name": "drupal/social",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/social",
+                "reference": "966ac161edf6e6d24171d925ee78417aacb0f1ca"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha7+1-dev",
+                    "datestamp": "1471960233"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "GoalGorilla",
+                    "homepage": "https://www.drupal.org/user/272162"
+                },
+                {
+                    "name": "jaapjan",
+                    "homepage": "https://www.drupal.org/user/555428"
+                },
+                {
+                    "name": "ronaldtebrake",
+                    "homepage": "https://www.drupal.org/user/2314038"
+                }
+            ],
+            "description": "Provide social fields.",
+            "homepage": "https://www.drupal.org/project/social",
+            "support": {
+                "source": "http://cgit.drupalcode.org/social"
+            },
+            "time": "2016-08-23 13:48:06"
         },
         {
             "name": "drush/drush",
@@ -5529,7 +5575,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/social": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
